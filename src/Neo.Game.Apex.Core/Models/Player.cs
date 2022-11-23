@@ -92,21 +92,21 @@ namespace Neo.Game.Apex.Core.Models
             set => _glowThroughWalls.Set(value);
         }
 
-        [JsonPropertyName("glowColor_R")]
+        [JsonPropertyName("glowColorR")]
         public byte GlowColor_R
         {
             get => _glowColor_R.Get();
             set => _glowColor_R.Set(value);
         }
 
-        [JsonPropertyName("glowColor_G")]
+        [JsonPropertyName("glowColorG")]
         public byte GlowColor_G
         {
             get => _glowColor_G.Get();
             set => _glowColor_G.Set(value);
         }
 
-        [JsonPropertyName("glowColor_B")]
+        [JsonPropertyName("glowColorB")]
         public byte GlowColor_B
         {
             get => _glowColor_B.Get();
